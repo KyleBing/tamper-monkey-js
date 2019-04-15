@@ -21,7 +21,7 @@
 
 // ==OpenUserJS==
 // @author kylebing
-// @collaborator username
+// @collaborator
 // ==/OpenUserJS==
 
 (function() {

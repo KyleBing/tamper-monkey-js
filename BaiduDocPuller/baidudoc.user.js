@@ -18,7 +18,7 @@
 
 // ==OpenUserJS==
 // @author kylebing
-// @collaborator username
+// @collaborator
 // ==/OpenUserJS==
 
 var pclass = 'reader-word-layer';
