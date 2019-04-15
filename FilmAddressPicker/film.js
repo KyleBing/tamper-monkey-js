@@ -4,13 +4,20 @@
 // @version      1.0
 // @description  显示电影页面中的电影下载链接
 // @author       KyleBing <kylebing@163.com>
-// @homepage     https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
 // @match        http://www.6vhao.tv/*
 // @match        http://www.dygang.net/*
 // @match        https://www.dy2018.com/i/*
 // @match        https://www.meijutt.com/*
 // @grant        All
+// @copyright    2019, KyleBing (https://kylebing.cn)
+// @license      License Type; License Homepage
+// @icon         url
+// @homepageURL  https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
+// @supportURL   url
+// @contributionURL url
+// @updateURL https://openuserjs.org/meta/kylebing/My_Script.meta.js
 // ==/UserScript==
+
 
 (function() {
     'use strict';

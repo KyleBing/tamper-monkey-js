@@ -4,9 +4,15 @@
 // @version      1.0
 // @description  打开百度文库的word页面，点击获取【文档内容】即可
 // @author       KyleBing <kylebing@163.com>
-// @homepage     https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
 // @match        https://wenku.baidu.com/view/*
 // @grant        All
+// @copyright    2019, KyleBing (https://kylebing.cn)
+// @license      License Type; License Homepage
+// @icon         url
+// @homepageURL  https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
+// @supportURL   url
+// @contributionURL url
+// @updateURL https://openuserjs.org/meta/kylebing/My_Script.meta.js
 // ==/UserScript==
 
 var pclass = 'reader-word-layer';
