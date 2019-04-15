@@ -7,6 +7,13 @@
 浏览器插件  `TamperMonkey` 用的 js
 
 
+OpenJS 安装路径：
+
+```
+https://openuserjs.org/users/kylebing/scripts
+```
+
+
 1. [电影天堂](https://www.dy2018.com/)，[电影港](http://www.dygang.net)，[6v电影](http://www.6vhao.tv/) 在页面头部直接显示下载链接
 
     ```
