@@ -3,7 +3,7 @@
 // @namespace    *
 // @version      1.0
 // @description  显示电影页面中的电影下载链接
-// @author       KyleBing <kylebing@163.com>
+// @author       KyleBing
 // @match        http://www.6vhao.tv/*
 // @match        http://www.dygang.net/*
 // @match        https://www.dy2018.com/i/*
@@ -16,6 +16,7 @@
 // @supportURL   url
 // @contributionURL url
 // @updateURL https://openuserjs.org/meta/kylebing/My_Script.meta.js
+// @collaborator username
 // ==/UserScript==
 
 
