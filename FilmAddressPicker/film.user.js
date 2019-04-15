@@ -9,12 +9,13 @@
 // @match        https://www.dy2018.com/i/*
 // @match        https://www.meijutt.com/*
 // @grant        All
-// @copyright    2019, KyleBing (https://kylebing.cn)
-// @license      License Type; License Homepage
-// @icon         url
+// @run-at       default
+// @copyright    2019+, KyleBing (https://kylebing.cn)
+// @license      GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
+// @icon         https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
 // @homepageURL  https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
-// @supportURL   url
-// @contributionURL url
+// @supportURL   https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
+// @contributionURL https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
 // @updateURL https://openuserjs.org/meta/kylebing/My_Script.meta.js
 // ==/UserScript==
 

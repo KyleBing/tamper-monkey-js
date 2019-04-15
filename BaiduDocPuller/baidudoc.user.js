@@ -6,12 +6,13 @@
 // @author       KyleBing
 // @match        https://wenku.baidu.com/view/*
 // @grant        All
+// @run-at       default
 // @copyright    2019, KyleBing (https://kylebing.cn)
-// @license      License Type; License Homepage
-// @icon         url
+// @license      GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
+// @icon         https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
 // @homepageURL  https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
-// @supportURL   url
-// @contributionURL url
+// @supportURL   https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
+// @contributionURL https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
 // @updateURL https://openuserjs.org/meta/kylebing/My_Script.meta.js
 // ==/UserScript==
 
