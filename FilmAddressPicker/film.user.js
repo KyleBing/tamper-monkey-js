@@ -12,7 +12,7 @@
 // @run-at       default
 // @copyright    2019+, KyleBing (https://kylebing.cn)
 // @license      MIT
-// @icon         https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
+// @icon         https://github.com/KyleBing/tamper-monkey-js/blob/master/FilmAddressPicker/imgs/film.png?raw=true
 // @homepageURL  https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
 // @supportURL   https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
 // @contributionURL https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
