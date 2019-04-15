@@ -16,9 +16,12 @@
 // @supportURL   url
 // @contributionURL url
 // @updateURL https://openuserjs.org/meta/kylebing/My_Script.meta.js
-// @collaborator username
 // ==/UserScript==
 
+// ==OpenUserJS==
+// @author kylebing
+// @collaborator username
+// ==/OpenUserJS==
 
 (function() {
     'use strict';
