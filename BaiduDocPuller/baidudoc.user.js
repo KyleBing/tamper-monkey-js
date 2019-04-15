@@ -8,8 +8,7 @@
 // @grant        All
 // @run-at       default
 // @copyright    2019, KyleBing (https://kylebing.cn)
-// @license      GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
-// @license      CC-BY-NC-SA-4.0
+// @license      MIT
 // @icon         https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
 // @homepageURL  https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
 // @supportURL   https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
