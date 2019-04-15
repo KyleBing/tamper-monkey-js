@@ -7,6 +7,7 @@
 // @match        http://www.6vhao.tv/*
 // @match        http://www.dygang.net/*
 // @match        https://www.dy2018.com/i/*
+// @match        https://www.meijutt.com/*
 // @grant        All
 // ==/UserScript==
 
@@ -14,28 +15,30 @@
     'use strict';
     var ls = document.links;
     var linkStr = '';
-    var linkExp = /(ed2k|ftp|magnet).*/;
+    var linkExp = /^(ed2k|ftp|magnet).*|.*\.torrent$/;
     var matchesLinks = [];
     for(var i=0; i<ls.length; i++){
         var item = ls[i];
         if(linkExp.test(item.href)){
-            matchesLinks.push(item);
+            matchesLinks.push(item.href);
         }
         if(linkExp.test(item.innerText)){
-            matchesLinks.push(item);
+            matchesLinks.push(item.innerText);
         }
     }
     // 去重
     matchesLinks = unique(matchesLinks);
     // 生成 结果 string
     matchesLinks.forEach(function (item) {
-        linkStr += (item.innerText + '\n')
+        linkStr += (item + '\n')
 
     });
     linkStr = matchesLinks.length < 1 ? "未找到下载链接": linkStr;
     var resultText = decodeURIComponent(linkStr);
-    var styleText = "  background-color: #fff;\n" +
-        "  margin: 20px;\n" +
+    var styleText = "  overflow: auto;\n" +
+        "  z-index: 9999999999;\n" +
+        "  background-color: #fff;\n" +
+        "  margin: 60px 30px;\n" +
         "  -webkit-border-radius: 5px;\n" +
         "  -moz-border-radius: 5px;\n" +
         "  border-radius: 5px;\n" +
@@ -48,7 +51,7 @@
         "  box-sizing: border-box;\n" +
         "  -webkit-box-shadow: 3px 4px 10px #00a90522;\n" +
         "  -moz-box-shadow: 3px 4px 10px #00a90522;\n" +
-        "  box-shadow: 3px 4px 10px #00a90522;\n";
+        "  box-shadow: 3px 4px 10px #00a90522;";
     // 新建 html 元素
     var element = document.createElement('pre');
     element.setAttribute('style',styleText);

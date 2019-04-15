@@ -16,17 +16,6 @@
     var pparts = [];
     var pdoc = '';
 
-    function getDoc() {
-        pdoc = '';
-        pparts = document.querySelectorAll('.'+pclass);
-        pparts.forEach(function (item) {
-            pdoc += item.innerHTML
-        });
-        pdoc = pdoc.replace(/<.*?>/g,'').replace(/&nbsp;/g,' ');
-        var win = window.open();
-        win.document.write("<pre>"+pdoc+"</pre>");
-    }
-
     var style = "  -webkit-user-select: none;\n" +
         "  -moz-user-select: none;\n" +
         "  -ms-user-select: none;\n" +
@@ -49,14 +38,28 @@
         "  background-color: #fff;";
     var href = "data:text/plain;charset=utf-8," + encodeURIComponent(pdoc);
     var downA = document.createElement('button');
-    var downText = document.createTextNode('新标签页中打开文档');
+    var downText = document.createTextNode('新标签页中获取显示的文档文字');
     downA.setAttribute('onclick', 'getDoc()');
     downA.setAttribute('style', style);
 
     downA.appendChild(downText);
     document.body.appendChild(downA);
 
+    function getDoc() {
+        pdoc = '';
+        pparts = document.querySelectorAll('.'+pclass);
+        pparts.forEach(function (item) {
+            pdoc += item.innerHTML
+        });
+        pdoc = pdoc.replace(/<.*?>/g,'').replace(/&nbsp;/g,' ');
+        var win = window.open();
+        win.document.write("<pre>"+pdoc+"</pre>");
+    }
+
 })();
+
+
+
 
 
 
