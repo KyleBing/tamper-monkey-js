@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  打开百度文库的word页面，点击获取【文档内容】即可
 // @author       KyleBing <kylebing@163.com>
+// @homepage     https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
 // @match        https://wenku.baidu.com/view/*
 // @grant        All
 // ==/UserScript==

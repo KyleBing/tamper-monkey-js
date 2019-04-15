@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  显示电影页面中的电影下载链接
 // @author       KyleBing <kylebing@163.com>
+// @homepage     https://github.com/KyleBing/tamper-monkey-js/tree/master/FilmAddressPicker
 // @match        http://www.6vhao.tv/*
 // @match        http://www.dygang.net/*
 // @match        https://www.dy2018.com/i/*
