@@ -6,7 +6,7 @@
 // @author       KyleBing
 // @match        http://www.6vhao.tv/*
 // @match        http://www.dygang.net/*
-// @match        https://www.dy2018.com/i/*
+// @match        https://www.dy2018.com/*
 // @match        https://www.meijutt.com/*
 // @grant        All
 // @run-at       default
