@@ -9,10 +9,10 @@
 // @run-at       default
 // @copyright    2019, KyleBing (https://kylebing.cn)
 // @license      MIT
-// @icon         https://github.com/KyleBing/tamper-monkey-js/blob/master/BaiduDocPuller/imgs/baidudoc.png?raw=true
-// @homepageURL  https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
-// @supportURL   https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
-// @contributionURL https://github.com/KyleBing/tamper-monkey-js/tree/master/BaiduDocPuller
+// @icon         https://github.com/KyleBing/tamper-monkey-js/blob/master/FullScreen/imgs/fullscreen.png?raw=true
+// @homepageURL  https://github.com/KyleBing/tamper-monkey-js/tree/master/FullScreen
+// @supportURL   https://github.com/KyleBing/tamper-monkey-js/tree/master/FullScreen
+// @contributionURL https://github.com/KyleBing/tamper-monkey-js/tree/master/FullScreen
 // @updateURL    https://openuserjs.org/meta/kylebing/My_Script.meta.js
 // ==/UserScript==
 
