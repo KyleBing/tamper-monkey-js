@@ -1,0 +1,20 @@
+.fullscreen .btn {
+  cursor: pointer;
+  z-index: 99999;
+  display: block;
+  position: fixed;
+  height: 20px;
+  width: 20px;
+  border-right: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  left: 20px;
+  bottom: 20px;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/*# sourceMappingURL=fullscreen.css.map */
