@@ -51,21 +51,38 @@ function addBtn() {
   position: fixed;
   height: 20px;
   width: 20px;
-  border-right: 1px solid #cccccc;
-  border-top: 1px solid #cccccc;
+  background-color: #60CF73;
+  border: none;
   left: 20px;
   bottom: 20px;
   outline: none;
   padding: 0;
   margin: 0;
-  background-color: #fff;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  opacity: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
     `;
     let btn = document.createElement("button");
     btn.setAttribute('type','button');
     btn.setAttribute('style', cssStyle);
     btn.addEventListener('click',enterFullScreen);
+    btn.addEventListener('mouseenter',showBtn);
+    btn.addEventListener('mouseleave',hideBtn);
     document.body.appendChild(btn);
+}
+
+function showBtn() {
+    event.target.style.opacity = "1";
+}
+function hideBtn() {
+    event.target.style.opacity = "0";
 }
