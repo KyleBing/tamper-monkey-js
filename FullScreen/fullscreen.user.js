@@ -44,36 +44,45 @@ function enterFullScreen() {
 }
 
 function addBtn() {
-    let cssStyle = `
-  cursor: pointer;
-  z-index: 99999;
-  display: block;
-  position: fixed;
-  height: 20px;
-  width: 20px;
-  background-color: #60CF73;
-  border: none;
-  left: 20px;
-  bottom: 20px;
-  outline: none;
-  padding: 0;
-  margin: 0;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  opacity: 0;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -ms-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+    let styleSheet = `
+      cursor: pointer;
+      z-index: 99999;
+      display: block;
+      position: fixed;
+      height: 20px;
+      width: 20px;
+      background-color: #60CF73;
+      border: none;
+      left: 20px;
+      bottom: 20px;
+      outline: none;
+      padding: 0;
+      margin: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      opacity: 0;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      -webkit-transition: opacity 0.3s;
+      -moz-transition: opacity 0.3s;
+      -ms-transition: opacity 0.3s;
+      -o-transition: opacity 0.3s;
+      transition: opacity 0.3s;
     `;
+
+    var className = '.fullScreenBtn';
+
+    // add stylesheet
+    var styleBracket = document.createElement('style');
+    styleBracket.innerHTML = className + '{' + styleSheet + '}';
+    document.head.append(styleBracket);
+
+
     let btn = document.createElement("button");
     btn.setAttribute('type','button');
-    btn.setAttribute('style', cssStyle);
+    btn.classList.add(className);
     btn.addEventListener('click',enterFullScreen);
     btn.addEventListener('mouseenter',showBtn);
     btn.addEventListener('mouseleave',hideBtn);
