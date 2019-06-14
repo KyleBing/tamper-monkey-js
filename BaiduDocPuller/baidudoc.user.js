@@ -28,7 +28,7 @@ var pdoc = '';
 (function() {
     'use strict';
 
-    var style = "  -webkit-user-select: none;\n" +
+    var styleSheet = "  -webkit-user-select: none;\n" +
         "  -moz-user-select: none;\n" +
         "  -ms-user-select: none;\n" +
         "  user-select: none;\n" +
@@ -48,11 +48,20 @@ var pdoc = '';
         "  font-weight: bold;\n" +
         "  text-align: center;\n" +
         "  background-color: #fff;";
+
+    var className = '.showBaiduBtn';
+
+    // add stylesheet
+    var styleBracket = document.createElement('style');
+    styleBracket.innerHTML = className + '{' + styleSheet + '}';
+    document.head.append(styleBracket);
+
+
     var href = "data:text/plain;charset=utf-8," + encodeURIComponent(pdoc);
     var downA = document.createElement('button');
     var downText = document.createTextNode('新标签页中获取显示的文档文字');
     downA.addEventListener('click',getDoc);
-    downA.setAttribute('style', style);
+    downA.classList.add(className);
 
     downA.appendChild(downText);
     document.body.appendChild(downA);
@@ -70,6 +79,8 @@ function getDoc() {
     win.document.write("<pre>"+pdoc+"</pre>");
 }
 
+
+let listStyle = `.showBtn{${style}}`;
 
 
 
