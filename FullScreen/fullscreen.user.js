@@ -72,11 +72,11 @@ function addBtn() {
       transition: opacity 0.3s;
     `;
 
-    var className = '.fullScreenBtn';
+    var className = 'fullScreenBtn';
 
     // add stylesheet
     var styleBracket = document.createElement('style');
-    styleBracket.innerHTML = className + '{' + styleSheet + '}';
+    styleBracket.innerHTML = '.' + className + '{' + styleSheet + '}';
     document.head.append(styleBracket);
 
 

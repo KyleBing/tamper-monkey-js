@@ -49,11 +49,11 @@ var pdoc = '';
         "  text-align: center;\n" +
         "  background-color: #fff;";
 
-    var className = '.showBaiduBtn';
+    var className = 'showBaiduBtn';
 
     // add stylesheet
     var styleBracket = document.createElement('style');
-    styleBracket.innerHTML = className + '{' + styleSheet + '}';
+    styleBracket.innerHTML = '.' + className + '{' + styleSheet + '}';
     document.head.append(styleBracket);
 
 
